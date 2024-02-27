@@ -1,0 +1,118 @@
+h1 {
+    background-color: pink;
+    height: 150px;
+    text-align: center;
+    font-size: 60px;
+    color: red;
+}
+
+.ten {
+    background-color: green;
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.web {
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    margin: auto;
+}
+
+.chon li {
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+.chon li a {
+    text-decoration: none;
+    color: rgb(132, 9, 233);
+    padding: 0px 15px 0px 15px;
+    line-height: 95px;
+    display: block;
+}
+
+.chon li a:hover {
+    background-color: yellowgreen;
+    color: rgb(248, 247, 244);
+    transform: ease-in 0.35s;
+}
+
+.gioithieu {
+    width: 270px;
+    background-color: #0babd3;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+}
+
+.gioithieu li {
+    list-style: none;
+}
+
+.gioithieu li a {
+    text-transform: none;
+    text-decoration: none;
+    color: snow;
+    display: block;
+    line-height: 40px;
+    text-indent: 12px;
+}
+
+.chon li:hover .gioithieu {
+    display: block;
+    background-color: yellow;
+    color: black;
+    transform: ease-in 0.35s;
+}
+
+.chon li a:hover {
+    background-color: yellowgreen;
+    color: white;
+    transform: ease-in 0.35s;
+}
+
+.sanpham {
+    width: 295px;
+    background-color: #0babd3;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+}
+
+.sanpham li {
+    list-style: none;
+}
+
+.sanpham li a {
+    text-transform: none;
+    text-decoration: none;
+    color: snow;
+    display: block;
+    line-height: 40px;
+    text-indent: 12px;
+}
+
+.chon li:hover .sanpham {
+    display: block;
+    background-color: orange;
+    color: black;
+    transform: ease-in 0.35s;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
